@@ -1,0 +1,28 @@
+---
+title: "HousePrices"
+author: "raji"
+date: "September 20, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+Reading the trainin
+training_set <- read.csv('train.csv')
+test <- read.csv("test.csv")
+check <- training_set
+sample_submission <- read.csv('sample_submission.csv')
+
+```
+
+
+
+```{r pressure, echo=FALSE}
+
+
+```
+
